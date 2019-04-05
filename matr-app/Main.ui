@@ -1,0 +1,43 @@
+<layout alpha="1" backgroundColor="#ffffff" fontFamily="Roboto, sans-serif" paddingRight="18" paddingTop="18" paddingBottom="18" paddingLeft="18" name="Main">
+    <datasource type="Main" name="main"/>
+    <navigationBar title="Main" hideBackButton="false">
+        <leftButtons/>
+        <rightButtons/>
+    </navigationBar>
+    <image wpercentage="1" alpha="1" marginTop="6" marginBottom="10" bind="main.logo"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" bind="main.desc1Lbl"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" fontSize="32" textAlignment="center" bind="main.tempLbl"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" bind="main.desc2Lbl"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#1786DFFF" fontSize="32" textAlignment="center" bind="main.humLbl"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#333231FF" textAlignment="left" bind="main.desc3Lbl"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#CC8717FF" fontSize="32" textAlignment="center" bind="main.ambientLbl"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" bind="main.desc4Lbl"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" textAlignment="center" fontSize="25" bind="main.date"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" bind="main.light1Lbl"/>
+    <image wpercentage="1" alpha="1" marginTop="6" marginBottom="10" bind="main.light1"/>
+    <button wpercentage="1" height="40" textAlignment="center" cornerRadius="2" alpha="1" backgroundColor="#8f9eb3" fontSize="15" marginTop="6" marginBottom="10" paddingRight="10" paddingTop="10" paddingBottom="10" paddingLeft="10" textColor="#ffffff" text="ON/OFF">
+        <selectedState/>
+        <highlightedState/>
+        <event on="TapEvent">
+            <action type="RunRuleAction" ruleContext="MainContext" ruleName="onLight1Pressed"/>
+        </event>
+    </button>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" bind="main.light2Lbl"/>
+    <image wpercentage="1" alpha="1" marginTop="6" marginBottom="10" bind="main.light2"/>
+    <button wpercentage="1" height="40" textAlignment="center" cornerRadius="2" alpha="1" backgroundColor="#8f9eb3" fontSize="15" marginTop="6" marginBottom="10" paddingRight="10" paddingTop="10" paddingBottom="10" paddingLeft="10" textColor="#ffffff" text="ON/OFF">
+        <selectedState/>
+        <highlightedState/>
+        <event on="TapEvent">
+            <action type="RunRuleAction" ruleContext="MainContext" ruleName="onLight2Pressed"/>
+        </event>
+    </button>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" bind="main.light3Lbl"/>
+    <image wpercentage="1" alpha="1" marginTop="6" marginBottom="10" bind="main.light3"/>
+    <button wpercentage="1" height="40" textAlignment="center" cornerRadius="2" alpha="1" backgroundColor="#8f9eb3" fontSize="15" marginTop="6" marginBottom="10" paddingRight="10" paddingTop="10" paddingBottom="10" paddingLeft="10" textColor="#ffffff" text="ON/OFF">
+        <selectedState/>
+        <highlightedState/>
+        <event on="TapEvent">
+            <action type="RunRuleAction" ruleContext="MainContext" ruleName="onLight3Pressed"/>
+        </event>
+    </button>
+</layout>
