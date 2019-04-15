@@ -1,4 +1,4 @@
-### Conexiones electricas
+# Conexiones electricas
 
 Aqui veremos el esquema de conexión del proyecto.
 En la primera imagen tenemos el esquema eléctrico.
