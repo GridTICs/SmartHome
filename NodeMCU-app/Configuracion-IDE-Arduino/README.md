@@ -14,7 +14,7 @@ Para usar cualquiera de las funciones de este sistema de archivo en un sketch ar
 ### Instalar el cargador del sistema de archivos.
 
 Para instalar el cargador del sistema de archivos primero deberemos descargar el archivo esp8266fs.jar.
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+![Aquí la descripción de la imagen por si no carga](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/ESP8266_Sketch_Data_Upload.png)
 
 Al instalar el IDE Arduino se crea automaticamente una carpeta llamada Arduino. En esta ultima existe una subcarpeta llamada "libraries".
 Dentro de la carpeta Arduino, antes mencionada, crearemos una carpeta llamada "tools". A su vez dentro de esta crearemos otra carpeta llamada "ESP8266". Que contendra una carpeta llamada "tool". En esta última colocaremos el archivo "esp8266fs.jar".
