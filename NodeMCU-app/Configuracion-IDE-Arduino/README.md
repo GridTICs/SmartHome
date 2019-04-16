@@ -9,7 +9,9 @@ SPIFFS (SPI Flash File System) es un sistema de archivo diseñado para sistemas e
 Mediante este sistema se pueden cargar en la memoria de las placas tanto los programas como los archivos utilizados para realizar la conexion encriptada.
 Para usar cualquiera de las funciones de este sistema de archivo en un sketch arduino deberemos incluir la libreria FS.h
 
+´´´
 #include "FS.h"
+´´´
 
 ### Instalar el cargador del sistema de archivos.
 
