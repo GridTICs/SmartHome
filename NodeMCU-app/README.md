@@ -17,7 +17,7 @@ En esta parte está el código utilizado. El mismo deberá ser cargado en la placa 
 
 ### Configuración del IDE Arduino
 
-En la mayoría de los casos para poder trabajar con placas basadas en el chip ESP8266 necesitamos una pequeña configuración adicional de nuestro IDE Arduino. En esta carpeta se encuentra una breve explicación de la configuración del IDE Arduino para poder realizar nuestro proyecto.
+En la mayoría de los casos para poder trabajar con placas basadas en el chip ESP8266 se necesita una configuración adicional de nuestro IDE Arduino. Una breve explicación de la configuración del IDE Arduino para poder realizar nuestro proyecto se detalla en esta carpeta.
 
 ## Autor
 
