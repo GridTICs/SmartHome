@@ -1,13 +1,13 @@
 # Conexiones eléctricas
 
-Aqui veremos el esquema de conexión del proyecto.  
+Las conexiones del proyecto se muestran a continuación.  
 En esta primera imagen tenemos el esquema eléctrico.  
 
-![Aquí la descripción de la imagen por si no carga](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Conexiones/NodeMCU-secure-sensors_esquem%C3%A1tico.png)
+![Esquema eléctrico](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Conexiones/NodeMCU-secure-sensors_esquem%C3%A1tico.png)
 
 En la imagen siguiente mostramos una ilustración del proyecto en una placa de prueba.  
 
-![Aquí la descripción de la imagen por si no carga](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Conexiones/NodeMCU-secure-sensors_bb.png)
+![Imagen ilustrativa en placa de prueba](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Conexiones/NodeMCU-secure-sensors_bb.png)
 
 ## Lista de materiales
 
