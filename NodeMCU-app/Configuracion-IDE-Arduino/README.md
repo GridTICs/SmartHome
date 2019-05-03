@@ -1,7 +1,23 @@
 # Introducción
 
-Para poder poder realizar la comunicación cifrada necesitamos adjuntar los certificados en nuestro código.
-Esto se logra a traves de la libreria FS.h. Para que esta libreria pueda actuar deberemos agregar a nuestro IDE Arduino una herramienta especial. El IDE Arduino debera ser una version mayor a la 1.6.9.
+Para poder utilizar el Arduino IDE con la placa NodeMCU primero deberemos realizarle al Arduino IDE algunas configuraciones adicionales.Ademas debido a que necesitamos una comunicación cifrada necesitamos adjuntar los certificados en nuestro código.
+Esto se logra a traves de la libreria FS.h. Para que esta libreria pueda actuar deberemos agregar a nuestro IDE Arduino una herramienta especial. En esta sección se detallan ambas confiuraciones. El IDE Arduino debera ser una version mayor a la 1.6.9.
+
+## Intalar Arduino IDE para ESP8266
+
+Una vez instalado el Arduino IDE. Deberemos dirigirnos a "File > Preferences" tal como indica la siguiente figura.
+
+Se nos abrira un cuadro. En el cuadro en blanco que dice "Additional Boards Manager URLs" colocamos lo siguiente:
+
+```
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+```
+
+Luego iremos a Tools > Board: > Boards Manager...
+
+Se abrira un cuadro llamado "Boards Manager". En el cuadro de busqueda tipearemos "esp8266". Seleccionamos "ESP8266 Community". Luego "Install". Esperamos unos minutos a que se instale y cerramos.
+
+Ahora seleccionamos Tools > Board y veremos que aparecen las placas "ESP8266 Boards". Seleccionamos "NodeMCU 1.0"
 
 ## SPIFFS (SPI Flash File System)
 
