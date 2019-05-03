@@ -11,7 +11,7 @@ Una vez instalado el Arduino IDE. Deberemos dirigirnos a "File > Preferences" ta
 
 ![file-preferences](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/file-preferences.png)
 
-Se abrirá un cuadro. En el cuadro en blanco que dice "Additional Boards Manager URLs" colocamos lo siguiente:
+Se abrirá una ventana llamada "Preferences". En el cuadro en blanco que dice "Additional Boards Manager URLs" colocamos lo siguiente:
 
 ```
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
@@ -23,7 +23,8 @@ Luego se selecciona "Tools > Board: > Boards Manager..."
 
 ![tools-board](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/tools-board.png)
 
-Aparecera una ventana llamada "Boards Manager". En el cuadro de busqueda debera tipear "esp8266". Seleccione "ESP8266 Community". Luego "Install". Despues de unos minutos se instalará. Luego cierre la ventana.
+Aparecera una ventana llamada "Boards Manager". En el cuadro de busqueda debera tipear "esp8266". Seleccione "ESP8266 Community".
+Luego "Install". Despues de unos minutos se instalará. Luego cierre la ventana.
 
 ![board-manager](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/board-manager.png)
 
