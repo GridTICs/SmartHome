@@ -14,7 +14,7 @@ Una vez instalado el Arduino IDE. Deberemos dirigirnos a "File > Preferences" ta
 Se abrirá un cuadro. En el cuadro en blanco que dice "Additional Boards Manager URLs" colocamos lo siguiente:
 
 ```
-http://arduino.esp8266.com/stable/package_esp8266com_index.json
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
 
 ![preferences](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/preferences.png)
