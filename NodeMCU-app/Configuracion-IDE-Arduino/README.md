@@ -1,23 +1,35 @@
 # Introducción
 
-Para poder utilizar el Arduino IDE con la placa NodeMCU primero deberemos realizarle al Arduino IDE algunas configuraciones adicionales.Ademas debido a que necesitamos una comunicación cifrada necesitamos adjuntar los certificados en nuestro código.
-Esto se logra a traves de la libreria FS.h. Para que esta libreria pueda actuar deberemos agregar a nuestro IDE Arduino una herramienta especial. En esta sección se detallan ambas confiuraciones. El IDE Arduino debera ser una version mayor a la 1.6.9.
+Para poder utilizar el Arduino IDE con la placa NodeMCU primero deberemos realizarle al Arduino IDE algunas configuraciones adicionales.
+Además debido a que necesitamos una comunicación cifrada necesitamos adjuntar los certificados en nuestro código. Esto se logra a través de la librería FS.h.
+Para que esta librería pueda actuar deberemos agregar a nuestro IDE Arduino una herramienta especial.
+En esta sección se detallan ambas configuraciones. El IDE Arduino deberá ser una versión mayor a la 1.6.9.
 
 ## Intalar Arduino IDE para ESP8266
 
 Una vez instalado el Arduino IDE. Deberemos dirigirnos a "File > Preferences" tal como indica la siguiente figura.
 
-Se nos abrira un cuadro. En el cuadro en blanco que dice "Additional Boards Manager URLs" colocamos lo siguiente:
+![file-preferences](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/file-preferences.png)
+
+Se abrirá un cuadro. En el cuadro en blanco que dice "Additional Boards Manager URLs" colocamos lo siguiente:
 
 ```
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
 
-Luego iremos a Tools > Board: > Boards Manager...
+![preferences](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/preferences.png)
 
-Se abrira un cuadro llamado "Boards Manager". En el cuadro de busqueda tipearemos "esp8266". Seleccionamos "ESP8266 Community". Luego "Install". Esperamos unos minutos a que se instale y cerramos.
+Luego se selecciona "Tools > Board: > Boards Manager..."
 
-Ahora seleccionamos Tools > Board y veremos que aparecen las placas "ESP8266 Boards". Seleccionamos "NodeMCU 1.0"
+![tools-board](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/tools-board.png)
+
+Aparecera una ventana llamada "Boards Manager". En el cuadro de busqueda debera tipear "esp8266". Seleccione "ESP8266 Community". Luego "Install". Despues de unos minutos se instalará. Luego cierre la ventana.
+
+![board-manager](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/board-manager.png)
+
+Ahora haga click sobre "Tools > Board" y veremos que aparecen las placas "ESP8266 Boards". Seleccionamos "NodeMCU 1.0"
+
+![Board-final](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Board-final.png)
 
 ## SPIFFS (SPI Flash File System)
 
