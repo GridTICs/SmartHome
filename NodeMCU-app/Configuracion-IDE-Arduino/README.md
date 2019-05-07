@@ -69,5 +69,6 @@ Luego en el IDE Arduino nos dirigiremos a la seccion tool -> ESP8266 Sketch Data
 
 ![Aquí la descripción de la imagen por si no carga](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/ESP8266_Sketch_Data_Upload.png)
 
-Iremos subiendo los archivos uno por uno.
+Al clickear el Arduino IDE comenzara la subida de los archivos que se encuentran en la carpeta data a la placa.
+Deberemos esperar un tiempo hasta que nos diga que se completo en un 100% y listo.
 Debemos tener en cuenta que la carga de los archivos se debe realizar despues de la carga del sketch. Ademas la placa debe estar conectada para realizar la carga de los certificados.
