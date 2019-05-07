@@ -44,7 +44,7 @@ Para usar cualquiera de las funciones de este sistema de archivo en un sketch ar
 
 ### Instalar el cargador del sistema de archivos.
 
-Para instalar el cargador del sistema de archivos primero deberemos descargar el archivo esp8266fs.jar.
+Para instalar el cargador del sistema de archivos primero deberemos descargar el archivo "esp8266fs.jar".
 Al instalar el IDE Arduino se crea automaticamente una carpeta llamada Arduino. En esta ultima existe una subcarpeta llamada "libraries".
 
 
