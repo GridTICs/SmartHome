@@ -27,6 +27,11 @@ You can follow [these steps](http://matrproject.com/docs/eng/async-channels-eng/
 
 **TODO** add mapping Channel command + Model
 
+## Create device 
+**TODO**
+Download certificates.
+Read this to setup the certificates in your Node MCU device.
+
 ## Testing the app with mosquitto
 
 Si quieres probar la aplicación sin tener aún tu hardware terminado, puedes usar mosquitto client para simular tu dispositivo. Mosquitto client es una aplicación que se comporta como un cliente MQTT.
