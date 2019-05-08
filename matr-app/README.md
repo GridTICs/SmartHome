@@ -9,16 +9,28 @@ These instructions will get you knowing the first steps to use or import this ap
 
 ### Prerequisites
 
-* Create a Matr account
+* Create a Matr account [in the following page](https://platform.matrproject.com/sign-up)
 * Look for SmartHome app in Matr Hub. Fork the project SmartHome
 
-### Create the channels
+### Architecture
+
+NodeMCU -- publish sensor status --> channel home (temperature, humidity, light intensity,etc) 
+SmartHome app ---> suscribed to (hear) channel home ---> update APP status
+SmartHome --publish commands to --> channel command  (LED on/off)
+NodeMCU --> suscribed to (hear) channel command
+
+
+### Create the MQTT channels
+
+You can follow [these steps](http://matrproject.com/docs/eng/async-channels-eng/) to create two async channels: home and command.
 
 #### Channel home
 
 #### Channel command
 
 ### Testing the app with mosquitto
+
+Si quieres probar la aplicación sin tener aún tu hardware terminado, puedes usar mosquitto client para simular tu dispositivo. Mosquitto client es una aplicación que se comporta como un cliente MQTT.
 
 ### Example of publication with mosquitto client
 
