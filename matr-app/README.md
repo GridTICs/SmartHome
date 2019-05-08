@@ -37,14 +37,6 @@ If your project is importable, you can add code snippets on how to use your endp
 
 If you are looking for help with your application, write here how potential candidates can contact you.
 
-## Authors
-
-* **Ana Laura Diedrichs** - *Initial work* - @anadiedrichs
-
-## License
-
-This project is licensed under the MIT License. 
-
 ## Acknowledgments
 
 * This app was inspired in My Light Control app developed by Matr team
