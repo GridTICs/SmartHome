@@ -15,8 +15,11 @@ These instructions will get you knowing the first steps to use or import this ap
 ### Architecture
 
 NodeMCU -- publish sensor status --> channel home (temperature, humidity, light intensity,etc) 
+
 SmartHome app ---> suscribed to (hear) channel home ---> update APP status
+
 SmartHome --publish commands to --> channel command  (LED on/off)
+
 NodeMCU --> suscribed to (hear) channel command
 
 
@@ -24,9 +27,9 @@ NodeMCU --> suscribed to (hear) channel command
 
 You can follow [these steps](http://matrproject.com/docs/eng/async-channels-eng/) to create two async channels: home and command.
 
-#### Channel home
+TODO add mapping Channel home + Model
 
-#### Channel command
+TODO add mapping Channel command + Model
 
 ### Testing the app with mosquitto
 
@@ -34,9 +37,9 @@ Si quieres probar la aplicación sin tener aún tu hardware terminado, puedes us
 
 ### Example of publication with mosquitto client
 
-Channel home server: a2sq3y7mdrjtom.iot.us-east-1.amazonaws.com:8883
+MQTT server and port : a2sq3y7mdrjtom.iot.us-east-1.amazonaws.com:8883
 
-MQTT topic: 3e873641
+MQTT topic (channel home): 3e873641
 
 JSON format
 
@@ -49,11 +52,11 @@ mosquitto_pub -h a2sq3y7mdrjtom.iot.us-east-1.amazonaws.com -p 8883 -t 3e873641 
 
 ### Example of suscription with mosquitto client
 
-Channel command server: a2sq3y7mdrjtom.iot.us-east-1.amazonaws.com:8883
+MQTT topic (channel command) : a152175c
 
-To subscribe or publish in this channel, use the following MQTT topic: a152175c
-
+```
 mosquitto_sub -h a2sq3y7mdrjtom.iot.us-east-1.amazonaws.com -p 8883 -t a152175c --cert testDevice.certificate.pem --key testDevice.private-key.txt --cafile rootCA.pem -d
+```
 
 ## Acknowledgments
 
