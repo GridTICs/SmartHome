@@ -4,7 +4,7 @@ Esta sección describe todo lo referido a la parte del proyecto que utiliza la p
 
 ## Introducción
 
-NodeMCU es una plataforma de código abierto y un kit de desarrollo que está basado en el chip ESP8266.
+[NodeMCU](https://en.wikipedia.org/wiki/NodeMCU) es una plataforma de código abierto y un kit de desarrollo que está basado en el chip ESP8266.
 Es ideal para proyectos IoT.
 
 ### Conexiones
