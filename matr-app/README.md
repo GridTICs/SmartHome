@@ -10,7 +10,8 @@ These instructions will get you knowing the first steps to use or import this ap
 ### Prerequisites
 
 * Create a Matr account [in the following page](https://platform.matrproject.com/sign-up)
-* Look for SmartHome app in Matr Hub. Fork the project SmartHome
+* Activate your Matr account (¿click en email?)
+* Look for SmartHome app in Matr Hub (click in A), look for SmartHome app (see B), then fork the project SmartHome (click in C)
 
 ### Architecture
 
