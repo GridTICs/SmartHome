@@ -15,7 +15,14 @@ If you want to know more about which arduino was used and how the sensors were c
 
 The Mat|r application can be found in Mat|r hub for free use. You can see the code in the matr-app folder. Please read the matr-app README file to get more information about the MQTT configs.
 
+## Autor
 
+* **Ana Diedrichs** -@anadiedrichs
+* **Ariel Verdejo** -@arielverdejo
+
+## License
+
+This project is licensed under the MIT License. 
 
 
 
