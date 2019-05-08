@@ -1,13 +1,4 @@
-# Conexiones eléctricas
-
-Las conexiones del proyecto se muestran a continuación.  
-En esta primera imagen tenemos el esquema eléctrico.  
-
-![Esquema eléctrico](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Conexiones/NodeMCU-secure-sensors_esquem%C3%A1tico.png)
-
-En la imagen siguiente mostramos una ilustración del proyecto en una placa de prueba.  
-
-![Imagen ilustrativa en placa de prueba](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Conexiones/NodeMCU-secure-sensors_bb.png)
+# Hardware
 
 ## Lista de materiales
 
@@ -18,3 +9,15 @@ En la imagen siguiente mostramos una ilustración del proyecto en una placa de pr
 1 - Placa Adafruit Sensirion SHT31-D - Sensor de humedad y temperatura.  
 1 - Sensor de intensidad de luz BH1750 - GY-30.  
 1 - Placa NodeMCU.  
+
+## Conexiones elÃ©ctricas
+
+Las conexiones del proyecto se muestran a continuaciÃ³n.  
+En esta primera imagen tenemos el esquema elÃ©ctrico.  
+
+![Esquema elÃ©ctrico](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Conexiones/NodeMCU-secure-sensors_esquem%C3%A1tico.png)
+
+En la imagen siguiente mostramos una ilustraciÃ³n del proyecto en una placa de prueba.  
+
+![Imagen ilustrativa en placa de prueba](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Conexiones/NodeMCU-secure-sensors_bb.png)
+
