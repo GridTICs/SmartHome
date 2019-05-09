@@ -2,18 +2,7 @@
 
 Smart home prototype for Arduino Day 2019 demo.
 
-
-## Getting Started
-
-These instructions will get you knowing the first steps to use or import this application.
-
-### Prerequisites
-
-* Create a Matr account [in the following page](https://platform.matrproject.com/sign-up)
-* Activate your Matr account (¿click en email?)
-* Look for SmartHome app in Matr Hub (click in A), look for SmartHome app (see B), then fork the project SmartHome (click in C)
-
-### Architecture
+## Architecture
 
 NodeMCU -- publish sensor status --> channel home (temperature, humidity, light intensity,etc) 
 
@@ -23,16 +12,27 @@ SmartHome --publish commands to --> channel command  (LED on/off)
 
 NodeMCU --> suscribed to (hear) channel command
 
+## Prerequisites
 
-### Create the MQTT channels
+* Create a Matr account [in the following page](https://platform.matrproject.com/sign-up)
+* Activate your Matr account (¿click en email?)
+* Look for SmartHome app in Matr Hub (click in **A**), look for SmartHome app (see **B**), then fork the project SmartHome (click in **C**)
+![](https://github.com/GridTICs/SmartHome/blob/master/img/hub-smart-home-fork.png)
+
+## Create the MQTT channels
 
 You can follow [these steps](http://matrproject.com/docs/eng/async-channels-eng/) to create two async channels: home and command.
 
-TODO add mapping Channel home + Model
+**TODO** add mapping Channel home + Model
 
-TODO add mapping Channel command + Model
+**TODO** add mapping Channel command + Model
 
-### Testing the app with mosquitto
+## Create device 
+**TODO**
+Download certificates.
+Read this to setup the certificates in your Node MCU device.
+
+## Testing the app with mosquitto
 
 Si quieres probar la aplicación sin tener aún tu hardware terminado, puedes usar mosquitto client para simular tu dispositivo. Mosquitto client es una aplicación que se comporta como un cliente MQTT.
 
