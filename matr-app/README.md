@@ -18,18 +18,23 @@ NodeMCU --> suscribed to (hear) channel command --> turn on/off LEDs according t
 
 * Create a Matr account [in the following page](https://platform.matrproject.com/sign-up)
 * Activate your Matr account (¿click en email?)
-* Look for SmartHome app in Matr Hub (click in **A**), look for SmartHome app (see **B**), then fork the project SmartHome (click in **C**)
+* Download Matr Viewer app to your mobile phone.
+
+## Fork SmartHome app
+
+Look for SmartHome app in Matr Hub (click in **A**), look for SmartHome app (see **B**), then fork the project SmartHome (click in **C**)
 ![](https://github.com/GridTICs/SmartHome/blob/master/img/hub-smart-home-fork.png)
 
 ## Create the MQTT channels
 
-You can follow [these steps](http://matrproject.com/docs/eng/async-channels-eng/) to create two async channels: home and command.
+You can follow [these steps](http://matrproject.com/docs/eng/async-channels-eng/) to create two async channels which call home and command.
 
 **TODO** add mapping Channel home + Model
 
 **TODO** add mapping Channel command + Model
 
 ## Create device 
+
 **TODO**
 
 * Create a device and download certificates.
