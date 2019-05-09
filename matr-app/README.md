@@ -4,13 +4,15 @@ Smart home prototype for Arduino Day 2019 demo.
 
 ## Architecture
 
+![Esquema de interacción](img/esquema.png)
+
 NodeMCU -- publish sensor status --> channel home (temperature, humidity, light intensity,etc) 
 
-SmartHome app ---> suscribed to (hear) channel home ---> update APP status
+SmartHome app ---> suscribed to (hear) channel home ---> update APP status: values of sensors (temperature, humidity, ligth intensity), timestamp ( at what time the info was received), LEDs status.
 
-SmartHome --publish commands to --> channel command  (LED on/off)
+SmartHome app -- publish commands to --> channel command  (LED on/off), every time you click on one Bulb button
 
-NodeMCU --> suscribed to (hear) channel command
+NodeMCU --> suscribed to (hear) channel command --> turn on/off LEDs according to the command received.
 
 ## Prerequisites
 
@@ -29,8 +31,9 @@ You can follow [these steps](http://matrproject.com/docs/eng/async-channels-eng/
 
 ## Create device 
 **TODO**
-Download certificates.
-Read this to setup the certificates in your Node MCU device.
+
+* Create a device and download certificates.
+* [Read this](../NodeMCU-app/Configuracion-IDE-Arduino/README.md#spiffs-spi-flash-file-system) to setup the certificates in your Node MCU device.
 
 ## Testing the app with mosquitto
 
@@ -42,7 +45,7 @@ MQTT server and port : a2sq3y7mdrjtom.iot.us-east-1.amazonaws.com:8883
 
 MQTT topic (channel home): 3e873641
 
-JSON format
+JSON format:
 
 {"bulb1State":0,"bulb2State":1,"bulb3State":1,"temp":30,"hum":60,"lux":60}
 
