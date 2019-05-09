@@ -4,8 +4,9 @@ Para poder utilizar el Arduino IDE con la placa NodeMCU primero deberemos realiz
 Además debido a que necesitamos una comunicación cifrada necesitamos adjuntar los certificados en nuestro código. Esto se logra a través de la librería FS.h.
 Para que esta librería pueda actuar deberemos agregar a nuestro IDE Arduino una herramienta especial.
 En esta sección se detallan ambas configuraciones. El IDE Arduino deberá ser una versión mayor a la 1.6.9.
+Finalmente se encuentra una breve explicación de las librerías utilizadas.
 
-## Intalar Arduino IDE para ESP8266
+## Instalar Arduino IDE para ESP8266
 
 Una vez instalado el Arduino IDE. Deberemos dirigirnos a "File > Preferences" tal como indica la siguiente figura.
 
