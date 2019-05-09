@@ -75,7 +75,7 @@ Debemos tener en cuenta que la carga de los archivos se debe realizar despues de
 
 ## Librerías
 
-En nuestro proyecto se usan las siguientes librerías:
+En nuestro proyecto se usan las siguientes archivos de cabecera:
 ```
 #include <Arduino.h>
 #include <FS.h>
@@ -89,7 +89,7 @@ En nuestro proyecto se usan las siguientes librerías:
 #include "credentials.h"
 ```
 
-Las librerías:
+Los siguientes archivos:
 
 ```
 #include <Arduino.h>
@@ -98,17 +98,17 @@ Las librerías:
 #include <time.h>
 #include <Wire.h>
 ```
-están incluidas en el paquete básico de Arduino IDE por lo que para poder utilizarlas no debemos realizar ninguna tarea extra.
+están incluidas en el paquete básico de Arduino IDE por lo que para poder utilizarlos no debemos realizar ninguna tarea extra.
 
-Las librerías:
+Los archivos:
 
 ```
 #include <FS.h>
 #include <ESP8266WiFi.h>
 ```
-vienen incluidas al seleccionar nuestra placa. Es por ello que nuestro proyecto compilara correctamente.
+vienen incluidos al seleccionar nuestra placa. Es por ello que nuestro proyecto compilara correctamente.
 
-Para que funcionen las librerías restantes deberemos agregarlas mediante una simple configuración.  
+Para que funcionen las cabeceras restantes deberemos agregar las siguientes librerías mediante una simple configuración.  
 
 ```
 #include <PubSubClient.h>
@@ -152,4 +152,4 @@ Para que nuestro proyecto pueda compilar correctamente deberemos crear un archiv
 
 ![Credentials.](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Credentials.png)
 
-En este [archivo](../Sketch-Arduino/credentials.h) nosotros colocaremos todas nuestras claves privadas. A modo de ejemplo decidimos colocar un archivo genérico. Usted deberá completarlo con sus propios datos.
+En este [archivo ](../Sketch-Arduino/credentials.h)nosotros colocaremos todas nuestras claves privadas. A modo de ejemplo decidimos colocar un archivo genérico. Usted deberá completarlo con sus propios datos.
