@@ -152,4 +152,4 @@ Para que nuestro proyecto pueda compilar correctamente deberemos crear un archiv
 
 ![Credentials.](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Credentials.png)
 
-En este archivo nosotros colocaremos todas nuestras claves privadas. A modo de ejemplo decidimos colocar un archivo genérico. Usted deberá completarlo con sus propios datos.
+En este [archivo](../Sketch-Arduino/credentials.h)nosotros colocaremos todas nuestras claves privadas. A modo de ejemplo decidimos colocar un archivo genérico. Usted deberá completarlo con sus propios datos.
