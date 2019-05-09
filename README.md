@@ -4,9 +4,15 @@
 
 Código de maqueta SmartHome, prototipo de casa manejada de forma remota, presentado en eventos Arduino Day 2019 en Mendoza y Buenos Aires.
 
+![Maqueta foto](img/casita2.png)
+
+En este proyecto se realiza una app en Mat|r llamada SmartHome que recibe información de sensores y puede prender/apagar las luces de la maqueta
+
+![Esquema de interacción](img/esquema.png)
+
 Si quieres conocer más sobre el modelo de Arduino utilizado y como fueron conectados los sensores, lee este archivo [README](NodeMCU-app/README.md).
 matr-app
-La aplicación Mat|r puede encontrarse para libre uso y copia en el Mat|r hub. Puedes ver el código de la aplicación en [el directorio matr-app](matr-app) de este repositorio. Por favor lee el archivo [README](matr-app/README.md) del directorio matr-app para tener más información sobre la conectividad MQTT.
+La aplicación Mat|r puede encontrarse para libre uso y copia en el Mat|r hub. Puedes ver el código de la aplicación en [el directorio matr-app](img/esquema.png) de este repositorio. Por favor lee el archivo [README](matr-app/README.md) del directorio matr-app para tener más información sobre la conectividad MQTT.
 
 
 ## Code for SmartHome prototype project. 
