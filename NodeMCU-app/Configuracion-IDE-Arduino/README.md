@@ -141,7 +141,7 @@ Además deberemos agregar la biblioteca "Adafruit Unified Sensor". Procedemos de 
 
 ![Adafruit-Unified-Sensor](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Adafruit-Unified-Sensor.png)
 
-En este momento la única librería que nos falta es aclarar es:
+En este momento la única librería que nos falta aclarar es:
 
 ```
 #include "credentials.h"
