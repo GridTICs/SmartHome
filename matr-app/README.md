@@ -4,7 +4,7 @@ Smart home prototype for Arduino Day 2019 demo.
 
 ## Architecture
 
-![Esquema de interacción](img/esquema.png)
+![Esquema de interacción](../img/esquema.png)
 
 NodeMCU -- publish sensor status --> channel home (temperature, humidity, light intensity,etc) 
 
