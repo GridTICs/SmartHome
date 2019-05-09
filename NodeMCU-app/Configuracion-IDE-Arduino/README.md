@@ -75,7 +75,7 @@ Debemos tener en cuenta que la carga de los archivos se debe realizar despues de
 
 ## Librerías
 
-En nuestro proyecto se usan las siguientes archivos de cabecera:
+En nuestro proyecto se usan los siguientes archivos de cabecera:
 ```
 #include <Arduino.h>
 #include <FS.h>
@@ -98,7 +98,7 @@ Los siguientes archivos:
 #include <time.h>
 #include <Wire.h>
 ```
-están incluidas en el paquete básico de Arduino IDE por lo que para poder utilizarlos no debemos realizar ninguna tarea extra.
+están incluidos en el paquete básico de Arduino IDE por lo que para poder utilizarlos no debemos realizar ninguna tarea extra.
 
 Los archivos:
 
@@ -106,7 +106,7 @@ Los archivos:
 #include <FS.h>
 #include <ESP8266WiFi.h>
 ```
-vienen incluidos al seleccionar nuestra placa. Es por ello que nuestro proyecto compilara correctamente.
+vienen incluidos al seleccionar nuestra placa. Es por ello que nuestro proyecto compilara correctamente sin necesidad de ninguna acción adicional.
 
 Para que funcionen las cabeceras restantes deberemos agregar las siguientes librerías mediante una simple configuración.  
 
@@ -141,13 +141,13 @@ Además deberemos agregar la biblioteca "Adafruit Unified Sensor". Procedemos de 
 
 ![Adafruit-Unified-Sensor](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Adafruit-Unified-Sensor.png)
 
-En este momento la única librería que nos falta aclarar es:
+En este momento el único archivo cabecera que nos falta aclarar es:
 
 ```
 #include "credentials.h"
 ```
 
-Esta librería es la encargada de gestionar las distintas claves.
+Este archivo es el encargado de gestionar las distintas claves.
 Para que nuestro proyecto pueda compilar correctamente deberemos crear un archivo en la misma carpeta del proyecto llamada "credentials.h".
 
 ![Credentials.](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Credentials.png)
