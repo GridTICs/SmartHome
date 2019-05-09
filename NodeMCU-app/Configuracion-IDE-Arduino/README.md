@@ -140,3 +140,16 @@ Colocamos "Adafruit SHT31" y seleccionamos "Install".
 Además deberemos agregar la biblioteca "Adafruit Unified Sensor". Procedemos de igual forma que con la anterior biblioteca.
 
 ![Adafruit-Unified-Sensor](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Adafruit-Unified-Sensor.png)
+
+En este momento la única librería que nos falta es aclarar es:
+
+```
+#include "credentials.h"
+```
+
+Esta librería es la encargada de gestionar las distintas claves.
+Para que nuestro proyecto pueda compilar correctamente deberemos crear un archivo en la misma carpeta del proyecto llamada "credentials.h".
+
+![Credentials.](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Credentials..png)
+
+En este archivo nosotros colocaremos todas nuestras claves privadas. A modo de ejemplo decidimos colocar un archivo genérico. Usted deberá completarlo con sus propios datos.
