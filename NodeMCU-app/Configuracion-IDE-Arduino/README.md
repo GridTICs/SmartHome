@@ -72,3 +72,71 @@ Luego en el IDE Arduino nos dirigiremos a la seccion tool -> ESP8266 Sketch Data
 Al clickear el Arduino IDE comenzara la subida de los archivos que se encuentran en la carpeta data a la placa.
 Deberemos esperar un tiempo hasta que nos diga que se completo en un 100% y listo.
 Debemos tener en cuenta que la carga de los archivos se debe realizar despues de la carga del sketch. Ademas la placa debe estar conectada para realizar la carga de los certificados.
+
+### Librerías
+
+En nuestro proyecto se usan las siguientes librerías:
+```
+#include <Arduino.h>
+#include <FS.h>
+#include <ESP8266WiFi.h>
+#include <WiFiClientSecure.h>
+#include <PubSubClient.h>
+#include <SPI.h>
+#include <time.h>
+#include <Wire.h>
+#include "Adafruit_SHT31.h"
+#include "credentials.h"
+```
+
+Las librerías:
+
+```
+#include <Arduino.h>
+#include <WiFiClientSecure.h>
+#include <SPI.h>
+#include <time.h>
+#include <Wire.h>
+```
+están incluidas en el paquete básico de Arduino IDE por lo que para poder utilizarlas no debemos realizar ninguna tarea extra.
+
+Las librerías:
+
+```
+#include <FS.h>
+#include <ESP8266WiFi.h>
+```
+vienen incluidas al seleccionar nuestra placa. Es por ello que nuestro proyecto compilara correctamente.
+
+Para que funcionen las librerías restantes deberemos agregarlas mediante una simple configuración.  
+
+```
+#include <PubSubClient.h>
+#include "Adafruit_SHT31.h"
+```
+Primero deberemos ir a Tools > Manage Libraries...
+
+![tools-manage](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/tools-manage.png)
+
+Se abrirá una nueva ventana. Luego en el buscador deberemos colocar palabras claves. En el caso de 
+
+```
+#include <PubSubClient.h>
+```
+Colocamos "PubSubClient" y seleccionamos "Install"
+
+![PubSubClient](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/PubSubClient.png)
+
+En el caso de
+
+```
+#include "Adafruit_SHT31.h"
+```
+
+Colocamos "Adafruit SHT31" y seleccionamos "Install".
+
+![Adafruit-SHT31](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Adafruit-SHT31.png)
+
+Además deberemos agregar la biblioteca "Adafruit Unified Sensor". Procedemos de igual forma que con la anterior biblioteca.
+
+![Adafruit-Unified-Sensor](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/Adafruit-Unified-Sensor.png)
