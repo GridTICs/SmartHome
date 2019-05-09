@@ -29,13 +29,15 @@ Look for SmartHome app in Matr Hub (click in **A**), look for SmartHome app (see
 
 You can follow [these steps](http://matrproject.com/docs/eng/async-channels-eng/) to create two async channels which call home and command.
 
-**TODO** add mapping Channel home + Model
+![Create channel home](../img/home-channel-creation.gif)
 
-**TODO** add mapping Channel command + Model
+![Create channel command](../img/command-channel-created.gif)
+
 
 ## Create device 
 
-**TODO**
+![Create channel command](../img/nodeMCUdeviceCreate.gif)
+
 
 * Create a device and download certificates.
 * [Read this](../NodeMCU-app/Configuracion-IDE-Arduino/README.md#spiffs-spi-flash-file-system) to setup the certificates in your Node MCU device.
