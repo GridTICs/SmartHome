@@ -12,7 +12,7 @@
 #include <SPI.h>
 #include <time.h>
 #include <Wire.h>
-#include "Adafruit_SHT31.h"
+#include <Adafruit_SHT31.h>
 #include "credentials.h"
 
 #define DEBUG 0
@@ -23,8 +23,8 @@
 const char* mqtt_server = MQTT_SERVER;
 
 // WiFi Credentials
-const char* ssid = AP_5;
-const char* password = AP_5_PASS;
+const char* ssid = AP_1;
+const char* password = AP_1_PASS;
 
 // Fingerprint of the broker CA
 // openssl x509 -in  mqttserver.crt -sha1 -noout -fingerprint
