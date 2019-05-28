@@ -183,6 +183,7 @@ void wifi_connect() {
     Serial.print("===> WIFI ---> Connecting to ");
     Serial.println(ssid);
     delay(10);
+    WiFi.mode(WIFI_STA);
     WiFi.begin(ssid, password);
     int Attempt = 0;
     while (WiFi.status() != WL_CONNECTED) {
