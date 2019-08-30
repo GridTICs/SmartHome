@@ -54,7 +54,7 @@ Generalmente esta carpeta se encuentra en la sección "Mis Documentos" y se carac
 
 ![arduino-libraries](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/arduino-libraries.png)
 
-Dentro de la carpeta Arduino, antes mencionada, crearemos una carpeta llamada "tools". A su vez dentro de esta crearemos otra carpeta llamada "ESP8266". Que contendra una carpeta llamada "tool". En esta última colocaremos el archivo "esp8266fs.jar".
+Dentro de la carpeta Arduino, antes mencionada, crearemos una carpeta llamada "tools". A su vez dentro de esta crearemos otra carpeta llamada "ESP8266FS". Que contendra una carpeta llamada "tool". En esta última colocaremos el archivo "esp8266fs.jar".
 
 ![esp8266fs-jar](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/esp8266fs-jar.png)
 
