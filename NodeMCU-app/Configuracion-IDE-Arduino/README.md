@@ -25,6 +25,8 @@ Luego se selecciona "Tools > Board: > Boards Manager..."
 ![tools-board](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/tools-board.png)
 
 Aparecera una ventana llamada "Boards Manager". En el cuadro de busqueda debera tipear "esp8266". Seleccione "ESP8266 Community".
+Deberemos tener en cuenta que actualmente para trabajar con este tutorial deberemos seleccionar la versión "2.5.0".
+Versiones mas actuales han generados errores en la carga de archivos.
 Luego "Install". Despues de unos minutos se instalará. Luego cierre la ventana.
 
 ![board-manager](https://github.com/GridTICs/SmartHome/blob/master/NodeMCU-app/Configuracion-IDE-Arduino/board-manager.png)
